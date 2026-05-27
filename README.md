@@ -91,7 +91,7 @@ Ces dépendances permettent d’utiliser les composants Jetpack nécessaires à 
 
 ⚠️ En cas de problème de lecture depuis le repository :
 
-👉 [▶️ Voir le dossier de démonstration sur Google Drive](https://)
+👉 [▶️ Voir le dossier de démonstration sur Google Drive](https://drive.google.com/drive/folders/1zGA0ts1cD7phQXetNI6GGAclWlKUifv_?usp=sharing)
 
 ## Structure du projet:
 
