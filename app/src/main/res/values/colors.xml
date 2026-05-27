@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="pulse_bg_top">#151A3D</color>
+<color name="pulse_bg_mid">#31245C</color>
+<color name="pulse_bg_bottom">#0D1028</color>
+
+<color name="card_start">#F8F7FF</color>
+<color name="card_end">#E9F0FF</color>
+<color name="card_stroke">#D6D9FF</color>
+
+<color name="bubble_start">#7C3AED</color>
+<color name="bubble_end">#06B6D4</color>
+
+<color name="btn_plus_start">#22C55E</color>
+<color name="btn_plus_end">#14B8A6</color>
+
+<color name="btn_minus_start">#F97316</color>
+<color name="btn_minus_end">#EF4444</color>
+
+<color name="btn_reset_start">#6366F1</color>
+<color name="btn_reset_end">#A855F7</color>
+
+<color name="text_dark">#1E1B4B</color>
+<color name="text_soft">#6B7280</color>
+<color name="white">#FFFFFF</color>
+</resources>

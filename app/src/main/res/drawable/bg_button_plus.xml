@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="22dp" />
+
+    <gradient
+        android:startColor="@color/btn_plus_start"
+        android:endColor="@color/btn_plus_end"
+        android:angle="0" />
+
+    <padding
+        android:left="14dp"
+        android:right="14dp"
+        android:top="14dp"
+        android:bottom="14dp" />
+</shape>

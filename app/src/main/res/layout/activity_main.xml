@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_statepulse_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/statePulseContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvLabTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAB 18 • Jetpack Architecture"
+            android:textColor="#DDE7FF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StatePulse"
+            android:textColor="@color/white"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvScreenSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewModel + LiveData pour garder l’état après rotation"
+            android:textColor="#C7D2FE"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <LinearLayout
+            android:id="@+id/cardDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_statepulse_card"
+            android:elevation="12dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvStatusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valeur observée en temps réel"
+                android:textColor="@color/text_soft"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="18dp" />
+
+            <TextView
+                android:id="@+id/tvPulseValue"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="@drawable/bg_counter_bubble"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="72sp"
+                android:textStyle="bold"
+                android:elevation="8dp"
+                android:layout_marginBottom="22dp" />
+
+            <TextView
+                android:id="@+id/tvHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tourne l’écran après plusieurs clics : avec ViewModel, la donnée reste intacte."
+                android:textColor="@color/text_dark"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:layout_marginBottom="24dp" />
+
+            <Button
+                android:id="@+id/btnBoost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+ Augmenter le pulse"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_button_plus"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnLower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Réduire le pulse"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_button_minus"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Réinitialiser"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_button_reset"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnAsync"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bonus : +1 depuis un thread"
+                android:textColor="@color/text_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_button_background"
+                android:backgroundTint="@null" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
